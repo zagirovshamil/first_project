@@ -210,30 +210,30 @@ h1 {
   font-family: "Gilroy", sans-serif;
 }
 
-.content_0 {
+.main_content {
   display: flex;
   align-content: flex-end;
   flex-direction: column;
   flex-wrap: wrap;
 
   position: relative;
-  right: 49px;
+  right: 68px;
   top: 146px;
 }
 
-.content_1 {
+.top_content {
   font-size: 40px;
   margin-bottom: 28px;
 }
 
-.content_2 {
+.center_content {
   font-size: 16px;
   margin-bottom: 28px;
 }
 
 /* button_2 */
 
-.button_2 {
+.button_inv {
   width: 124px;
   height: 27px;
 
@@ -243,12 +243,12 @@ h1 {
   text-decoration: none;
 }
 
-.button_div2 {
+.button_div_inv {
   display: flex;
   flex-wrap: wrap;
 }
 
-.button_span_2 {
+.button_span_inv {
   color: #2c353d;
   font-family: "Gilroy";
   font-style: normal;
