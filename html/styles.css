@@ -1,0 +1,264 @@
+html {
+  display: flex;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  background: url(/logo/Pattern.svg) no-repeat;
+  background-color: #1e252b;
+  background-size: cover;
+  font: 18px "Gilroy", sans-serif;
+  line-height: 41.67 px;
+}
+
+/* markup */
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 914px;
+  height: 495px;
+  background: #5063ee;
+  border-radius: 39px;
+}
+
+/* content_1 */
+
+.create-account {
+  width: 478px;
+  height: 100%;
+  display: flex;
+  background: #2c353d;
+  position: absolute;
+  margin-right: 305px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 66px;
+}
+
+h1 {
+  width: 292px;
+  height: 42px;
+  margin: 0%;
+  color: #eeeeee;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+/* forms */
+
+.form-email {
+  width: 300px;
+  height: 40px;
+  font-weight: 400px;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.form-password {
+  width: 300px;
+  height: 40px;
+  font-weight: 400px;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.form-email-input {
+  height: 33px;
+  width: 291px;
+  color: #c6c6c6;
+
+  background-color: transparent;
+  border-radius: 4px;
+  border-color: transparent;
+  outline: 0;
+  padding-left: 8px;
+}
+
+.form-password-input {
+  height: 33px;
+  width: 291px;
+  color: #c6c6c6;
+
+  background-color: transparent;
+  border-radius: 4px;
+  border-color: transparent;
+  outline: 0;
+  padding-left: 8px;
+}
+
+/* buttton */
+
+.button {
+  width: 124px;
+  height: 27px;
+  outline: 1px solid #5063ee;
+  border-radius: 5px;
+  background-color: #5063ee;
+  padding: 9px 55px;
+  text-decoration: none;
+}
+
+.button_div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button_span {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_google {
+  padding-left: 22px;
+  width: 43px;
+  height: 43px;
+}
+
+/* checkbox*/
+
+.checkbox {
+  position: relative;
+  padding-bottom: 35px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox_input {
+  appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+}
+
+.checkbox_label {
+  font-size: 14px;
+  color: #c6c6c6;
+  padding-left: 25px;
+}
+
+.checkbox_label::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+
+  border: #c6c6c6 solid 1px;
+  border-radius: 4px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.checkbox_label::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+
+  background: url(icons8.svg) no-repeat;
+  background-size: 12px 12px;
+
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 2;
+  opacity: 0;
+
+  transition: opacity 0.1s linear;
+}
+
+.checkbox_input:checked + .checkbox_label:after {
+  opacity: 1;
+}
+
+/* content */
+
+.square {
+  color: #eeeeee;
+  font-family: "Gilroy", sans-serif;
+}
+
+.content_0 {
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  position: relative;
+  right: 49px;
+  top: 146px;
+}
+
+.content_1 {
+  font-size: 40px;
+  margin-bottom: 28px;
+}
+
+.content_2 {
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+
+/* button_2 */
+
+.button_2 {
+  width: 124px;
+  height: 27px;
+
+  outline: 1px solid #2c353d;
+  border-radius: 5px;
+  padding: 9px 55px;
+  text-decoration: none;
+}
+
+.button_div2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button_span_2 {
+  color: #2c353d;
+  font-family: "Gilroy";
+  font-style: normal;
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
